@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        
+        <title>BD Heritage Image Captioning</title>
+        <link rel="icon" type="image/x-icon" href="{{ url_for ( 'static', filename='favicon.ico') }}" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="{{ url_for ( 'static', filename='css/style.css') }}" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
+            <div class="container px-5">
+                <a class="navbar-brand" href="/">Home</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="/about">About</a></li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Header-->
+        <header class="masthead text-center text-white">
+            <div class="masthead-content">
+                <div class="container px-5">
+                    <center>
+                        <h1 class='display-1'>Welcome to</h1>
+                        <h1 class='display-1'>BD Heritage</h1>
+                        <h1 class='display-1'>Image Captioning</h1>
+                        
+                        <br>
+                        <br>
+                        
+                        <form action="{{url_for('after')}}" method='POST' enctype='multipart/form-data'>
+                            <input type="file" name='file1'>
+                        <input type="submit" name="btn" value='predict caption' class='btn btn-warning'> 
+                        
+                        </form>
+
+                        </center>
+                </div>
+            </div>
+            
+            <div class="bg-circle-1 bg-circle"></div>
+            <div class="bg-circle-2 bg-circle"></div>
+            <div class="bg-circle-3 bg-circle"></div>
+            <div class="bg-circle-4 bg-circle"></div>
+        </header>
+        
+        <section id="scroll">
+            <div class="container px-5">
+                <div class="row gx-5 align-items-center">
+                    <div class="col-lg-6 order-lg-2">
+                        <div class="p-5"><img class="img-fluid rounded-circle" src="{{ url_for ( 'static', filename='img/01.jpg') }}" alt="..." /></div>
+                    </div>
+                    <div class="col-lg-6 order-lg-1">
+                        <div class="p-5">
+                            <h2 class="display-4">Image Captioning</h2>
+                            <p>The goal of picture captioning is to create a brief textual description of a given image. Despite the fact that it appears to be a simple activity for humans, computers find it challenging since it requires the ability to assess images (computer vision) and deliver a human-like description (natural language understanding). In the form of visual captioning, encoder-decoder designs have lately achieved advanced results.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Content section 2-->
+        <section>
+            <div class="container px-5">
+                <div class="row gx-5 align-items-center">
+                    <div class="col-lg-6">
+                        <div class="p-5"><img class="img-fluid rounded-circle" src="{{ url_for ( 'static', filename='img/02.jpg') }}" alt="..." /></div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="p-5">
+                            <h2 class="display-4">Bangladesh Heritage</h2>
+                            <p>Bangladesh's cultural legacy is evidenced by numerous relics from ancient times, as well as ruins of prehistoric urban sites and other outstanding monuments from various eras scattered across the country. 448 sites have been designated as national heritage sites so far.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Content section 3-->
+        <section>
+            <div class="container px-5">
+                <div class="row gx-5 align-items-center">
+                    <div class="col-lg-6 order-lg-2">
+                        <div class="p-5"><img class="img-fluid rounded-circle" src="{{ url_for ( 'static', filename='img/03.jpg') }}" alt="..." /></div>
+                    </div>
+                    <div class="col-lg-6 order-lg-1">
+                        <div class="p-5">
+                            <h2 class="display-4">Combining Together</h2>
+                            <p>Bangladesh is a country with a lot of natural beauty. Rivers, beaches, ancient sites, sacred places, cliffs, woods, falls, tea gardens, and other natural features surround the area. The Sundarban, Bagerhat's Historic Mosque City, and the Ruins of the Buddhist Vihara at Paharpur are three of Bangladesh's 1007 earth heritage sites. The natural beauty of the areas attracts a large number of local and international tourists. Bangladesh, on the other hand, has struggled to develop itself as a tourism destination due to a number of obstacles. With that in mind, the purpose of this article is to test the usage of picture captioning to bring the natural beauty of Bangladesh to the attention of tourists. People all across the world will learn more about our country as a result of this endeavor.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+
+        <!-- Footer-->
+        <footer class="py-5 bg-black">
+            <div class="container px-5"><p class="m-0 text-center text-white small">Copyright &copy; BD Heritage Image Captioning 2022</p></div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
+
+
+
+
+
