@@ -121,4 +121,13 @@ Sample output:
 - Translated Caption:
 
    ![image](https://github.com/user-attachments/assets/62b8759b-f942-45ee-9b9d-4485c1eddf87)
+  
+---
+
+## Contact
+If you have any questions or need further assistance, please feel free to contact:
+
+- **Name**: Sarowar Alam
+- **Email**: sarowaralam40@gmail.com
+- **GitHub**: [https://github.com/your-username](https://github.com/SarowarAlam)
 
