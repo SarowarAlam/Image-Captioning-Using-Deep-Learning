@@ -113,10 +113,10 @@ This project addresses the global audience's lack of awareness about Bangladesh'
 
 Sample output:
 
-- Input Image:![image](https://github.com/user-attachments/assets/e1d2fafb-f24c-44ec-8f04-54a06f093d28)
+- Input Image:          ![image](https://github.com/user-attachments/assets/e1d2fafb-f24c-44ec-8f04-54a06f093d28)
 
 - Predicted Caption: "Bangladeshi boy and a man taking their cow for bath"
-- Translated Caption: ![image](https://github.com/user-attachments/assets/62b8759b-f942-45ee-9b9d-4485c1eddf87)
+- Translated Caption:          ![image](https://github.com/user-attachments/assets/62b8759b-f942-45ee-9b9d-4485c1eddf87)
 
 
 ---
