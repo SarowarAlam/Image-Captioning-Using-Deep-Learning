@@ -122,19 +122,3 @@ Sample output:
 
    ![image](https://github.com/user-attachments/assets/62b8759b-f942-45ee-9b9d-4485c1eddf87)
 
-
----
-
-## Contributing
-
-Contributions are welcome! Please fork this repository and submit pull requests with your improvements.
-
----
-
-## Acknowledgments
-
-Special thanks to the authors of the paper *"Image Captioning - Bangladesh’s Heritage Perspective Using Deep Learning"* for their foundational work and the datasets used in this project.
-
----
-
-Feel free to adapt this draft as needed for your GitHub repository. Let me know if you need additional modifications!
