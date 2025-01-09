@@ -113,7 +113,7 @@ This project addresses the global audience's lack of awareness about Bangladesh'
 
 Sample output:
 
-- Input Image:
+- Input Image & Output Caption:
 
    ![image](https://github.com/user-attachments/assets/e1d2fafb-f24c-44ec-8f04-54a06f093d28)
 
